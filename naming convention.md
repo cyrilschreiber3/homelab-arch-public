@@ -1,6 +1,7 @@
 All devices must follow the naming convention `<codename>-<role/service>-<id>` _(example: `XXXXX-DC-01`)_. Through the Pi-Hole service, every device following this naming convention will get an FQDN based on their hostname and the local domain _(example: `XXXXX-DC-01.internaldomain1.com`)_.
 
 Devices that have multiple network interfaces (LAN + Wifi, 10G LAN + 1G LAN) will get an identifier at the end of the secondary interface's hostname
+
 | Identifier | Description                    |
 | ---------- | ------------------------------ |
 | BAK        | Secondary backup interface     |
@@ -77,6 +78,7 @@ Every device following this naming convention will have its `<codename>` be the 
 
 ## Role or service
 The role or service part of every device's name needs to be descriptive of what the device is mainly used for.
+
 | String | Description                     |
 | ------ | ------------------------------- |
 | DC     | Domain Controller               |
