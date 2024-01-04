@@ -192,7 +192,7 @@ OS: Alpine Linux 3.17
 | ---- | ---- | ---- | ---- |
 | portainer | Portainer | - | https://portainer.internaldomain1.com/ |
 | Grafana-loki | Grafana | Log agregation tool | https://grafana.internaldomain1.com/ |
-| ansible-semaphore | Ansible Semaphore | Web UI for Ansible | https://semaphore.internaldomain1.com/ |
+| ansible-semaphore | Ansible Semaphore | Web UI for Ansible | https://semaphore.internaldomain1.com/<br>https://semaphore.publicdomain2.com/ |
 | homer | - | Dashboard for my homelab | https://dashboard.internaldomain1.com/ |
 | my_spotify | Your Spotify | Spotify stats dashboard | https://myspotify.publicdomain2.com/ |
 | plex-addons-pub | Overseerr, Wizarr | Public Plex addons | https://overseerr.publicdomain1.com/ <br>https://join.plex.publicdomain1.com/ |
