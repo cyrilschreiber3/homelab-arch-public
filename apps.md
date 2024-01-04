@@ -202,7 +202,7 @@ OS: Alpine Linux 3.17
 | pterodactyl-panel | - | Pterodactyl admin panel | https://pterodactyl.publicdomain2.com/ |
 | personal-website-1 | Apache, PHP, mySQL, phpmyadmin | My personal website | https://publicdomain1.com/ <br>https://portfoliodb.internaldomain1.com/ |
 | unifi-controller | Unifi Controller | - | https://ui.internaldomain1.com/ |
-| vs-code-server | - | Centralized Code server | https://code.internaldomain1.com/ |
+| coder | Coder / code-server | Centralized Code server | https://code.publicdomain2.com/ |
 | webmail | Roundcube | Webmail client | https://webmail.publicdomain2.com/ |
 | speedtest-tracker | - | Tests my internet speed every hour | https://speedtest.internaldomain1.com/ |
 | syncthing | Syncthing | File sync service | https://sync.kraken-dh-01.internaldomain1.com/ |
