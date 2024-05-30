@@ -22,6 +22,7 @@
 >Here are some SSD Specs Databases:
 > - [TechPowerUp's SSD Database](https://www.techpowerup.com/ssd-specs/)
 > - [Some Google Sheet list](https://docs.google.com/spreadsheets/d/1B27_j9NDPU3cNlj2HKcrfpJKHkOf-Oi1DbuuQva2gT4/edit#gid=0)
+> - 
 ## Software 
 
 - OS: TrueNAS Scale
