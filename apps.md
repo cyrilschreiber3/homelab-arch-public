@@ -242,8 +242,16 @@ OS: Alpine Linux 3.17
 
 | Service | Description | URL |
 | ---- | ---- | ---- |
-| Pi-hole | - | https://pihole.mantis-dns-03.internaldomain1.com/ <br>dns://192.168.1.13 |
+| Pi-hole | - | https://admin.mantis-dns-02.internaldomain1.com/ <br>dns://192.168.1.13 |
 | Unbound | Recursive DNS Server | - |
 | Keepalived | Load blancing and failover service | 192.168.1.85 (backup) |
 | Cockpit | Linux Cockpit | https://cockpit.mantis-dns-02.internaldomain1.com/ |
 | uptimekuma | Uptime monitoring service | https://uptime.internaldomain1.com/ |
+
+## Aquila-VPN-01
+[Hardware](servers.md#aquila-vpn-01)
+
+| Service | Description | URL |
+| ---- | ---- | ---- |
+| PiVPN | Wireguard VPN Server | openvpn://vpn.publicdomain2.com/ |
+| Cockpit | Linux Cockpit | https://cockpit.aquila-vpn-01.internaldomain1.com/ |

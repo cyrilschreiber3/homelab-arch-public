@@ -59,9 +59,9 @@ HP ProDesk 400 G5 MT
 # Mantis-DNS-02
 [Containers](apps.md#mantis-dns-02)
 ## Hardware
-Raspberry Pi 3B+ 
+Raspberry Pi 5 8Gb
 ## Software
-- OS: Raspberry Pi OS Lite (Debian 11)
+- OS: Raspberry Pi OS Lite (Debian 12)
 
 # Gladiator-DH-02
 [Virtual Machines](apps.md#gladiator-dh-02), [Containers](apps.md#gladiator-dh-02-1)
@@ -77,3 +77,10 @@ Intel Nuc 11 Essential Kit
 | SSD  | 256GB SSD                   | 
 ## Software
 - OS: RHEL
+
+# Aquila-VPN-01
+[Containers](apps.md#aquila-vpn-01)
+## Hardware
+Raspberry Pi 3b+
+## Software
+- OS: Raspberry Pi OS Lite (Debian 12)

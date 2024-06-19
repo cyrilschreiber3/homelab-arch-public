@@ -58,7 +58,7 @@ Every device following this naming convention will have its `<codename>` be the 
 - [ ] Constellation
 	- [ ] Andromeda
 	- [x] Phoenix
-	- [ ] Aquila
+	- [x] Aquila
 	- [ ] Taurus
 - [x] Mantis
 - [x] Scorpius
@@ -79,30 +79,31 @@ Every device following this naming convention will have its `<codename>` be the 
 ## Role or service
 The role or service part of every device's name needs to be descriptive of what the device is mainly used for.
 
-| String | Description                     |
-| ------ | ------------------------------- |
-| DC     | Domain Controller               |
-| CL     | Client device                   |
-| WEB    | Web server                      |
-| DNS    | Domain Name Server              |
-| DMZ    | Demilitarized zone server       |
-| FS     | File Server                     |
-| Rtr    | Router                          |
-| SW     | Switch                          |
-| MINE   | Minecraft server                |
-| HAc    | Home Assistant Core             |
-| Hb     | Homebrige                       |
-| HV     | Hypervisor                      |
-| DH     | Docker Host                     |
-| Prtn   | Printer                         |
-| AP     | Access Point                    |
-| VR     | Virtual Reality Heaset          |
-| VIP    | Virtual IP                      |
-| PXY    | Proxy / Reverse Proxy server    |
-| GSN    | Game Server Node (Pterodactyl)  |
-| RMM    | Remote Moniroting and Managment |
-| CLD    | Cloud Server                    |
-| MDA    | Media Server                    | 
+| String | Description |
+| ---- | ---- |
+| DC | Domain Controller |
+| CL | Client device |
+| WEB | Web server |
+| DNS | Domain Name Server |
+| DMZ | Demilitarized zone server |
+| FS | File Server |
+| Rtr | Router |
+| SW | Switch |
+| MINE | Minecraft server |
+| HAc | Home Assistant Core |
+| Hb | Homebrige |
+| HV | Hypervisor |
+| DH | Docker Host |
+| Prtn | Printer |
+| AP | Access Point |
+| VR | Virtual Reality Heaset |
+| VIP | Virtual IP |
+| PXY | Proxy / Reverse Proxy server |
+| GSN | Game Server Node (Pterodactyl) |
+| RMM | Remote Moniroting and Managment |
+| CLD | Cloud Server |
+| MDA | Media Server |
+| VPN | VPN Server |
 
 ## ID
 The ID is a double-digit incrementing number to identify devices when multiple of them have the same role or service.
