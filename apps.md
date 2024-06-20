@@ -188,54 +188,54 @@ OS: Alpine Linux 3.17
 ## Kraken-DH-01
 [Hardware](servers.md#kraken-dh-01)
 
-| Name | Service | Description | URL |
-| ---- | ---- | ---- | ---- |
-| portainer | Portainer | - | https://portainer.internaldomain1.com/ |
-| Grafana-loki | Grafana | Log agregation tool | https://grafana.internaldomain1.com/ |
-| ansible-semaphore | Ansible Semaphore | Web UI for Ansible | https://semaphore.internaldomain1.com/<br>https://semaphore.publicdomain2.com/ |
-| homer | - | Dashboard for my homelab | https://dashboard.internaldomain1.com/ |
-| my_spotify | Your Spotify | Spotify stats dashboard | https://myspotify.publicdomain2.com/ |
-| plex-addons-pub | Overseerr, Wizarr | Public Plex addons | https://overseerr.publicdomain1.com/ <br>https://join.plex.publicdomain1.com/ |
-| plex-addons-int | Radarr, Sonarr, Lidarr, Prowlarr | Internal Plex addons | https://radarr.publicdomain2.com/ <br>https://radarr.internaldomain1.com/ <br>https://sonarr.publicdomain2.com/ <br>https://sonarr.internaldomain1.com/ <br>https://lidarr.publicdomain2.com/ <br>https://lidarr.internaldomain1.com/ <br>https://prowlarr.internaldomain1.com/ |
-| shlink | - | Link shortener | https://shlink.publicdomain2.com/ <br>https://l.publicdomain2.com/[slug] |
-| vaultwarden | - | Password manager | https://passman.publicdomain2.com/ |
-| pterodactyl-panel | - | Pterodactyl admin panel | https://pterodactyl.publicdomain2.com/ |
-| personal-website-1 | Apache, PHP, mySQL, phpmyadmin | My personal website | https://publicdomain1.com/ <br>https://portfoliodb.internaldomain1.com/ |
-| unifi-controller | Unifi Controller | - | https://ui.internaldomain1.com/ |
-| coder | Coder / code-server | Centralized Code server | https://code.publicdomain2.com/ |
-| webmail | Roundcube | Webmail client | https://webmail.publicdomain2.com/ |
-| speedtest-tracker | - | Tests my internet speed every hour | https://speedtest.internaldomain1.com/ |
-| syncthing | Syncthing | File sync service | https://sync.kraken-dh-01.internaldomain1.com/ |
-| auto-updater | Watchtower | Container updater | - |
+| Name               | Service                                             | Description                                                                                      | URL                                                                                                                                                                                                                                                  |
+| ------------------ | --------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| portainer          | Portainer                                           | -                                                                                                | https://portainer.internaldomain1.com/                                                                                                                                                                                                                  |
+| Grafana-stack      | Grafana, Prometheus, InfluxDB and various exporters | Matrics and log agregation tools                                                                 | https://grafana.internaldomain1.com/<br>https://prometheus.internaldomain1.com/<br>https://influxdb.internaldomain1.com/                                                                                                                                      |
+| ansible-semaphore  | Ansible Semaphore                                   | Web UI for Ansible                                                                               | https://semaphore.internaldomain1.com/<br>https://semaphore.publicdomain2.com/                                                                                                                                                                               |
+| homer              | -                                                   | Dashboard for my homelab                                                                         | https://dashboard.internaldomain1.com/                                                                                                                                                                                                                  |
+| my_spotify         | Your Spotify                                        | Spotify stats dashboard                                                                          | https://myspotify.publicdomain2.com/                                                                                                                                                                                                                      |
+| plex-addons-pub    | Overseerr, Wizarr                                   | Public Plex addons                                                                               | https://overseerr.publicdomain1.com/ <br>https://join.plex.publicdomain1.com/                                                                                                                                                                        |
+| plex-addons-int    | Radarr, Sonarr, Lidarr, Prowlarr                    | Internal Plex addons                                                                             | https://radarr.publicdomain2.com/ <br>https://radarr.internaldomain1.com/ <br>https://sonarr.publicdomain2.com/ <br>https://sonarr.internaldomain1.com/ <br>https://lidarr.publicdomain2.com/ <br>https://lidarr.internaldomain1.com/ <br>https://prowlarr.internaldomain1.com/ |
+| shlink             | -                                                   | Link shortener                                                                                   | https://shlink.publicdomain2.com/ <br>https://l.publicdomain2.com/[slug]                                                                                                                                                                                       |
+| vaultwarden        | -                                                   | Password manager                                                                                 | https://passman.publicdomain2.com/                                                                                                                                                                                                                        |
+| pterodactyl-panel  | -                                                   | Pterodactyl admin panel                                                                          | https://pterodactyl.publicdomain2.com/                                                                                                                                                                                                                    |
+| personal-website-1 | Apache, PHP, mySQL, phpmyadmin                      | My personal website                                                                              | https://publicdomain1.com/ <br>https://portfoliodb.internaldomain1.com/                                                                                                                                                                                 |
+| unifi-controller   | Unifi Controller                                    | -                                                                                                | https://ui.internaldomain1.com/                                                                                                                                                                                                                         |
+| coder              | Coder / code-server                                 | Centralized Code server                                                                          | https://code.publicdomain2.com/                                                                                                                                                                                                                           |
+| speedtest-tracker  | -                                                   | Tests my internet speed every hour                                                               | https://speedtest.internaldomain1.com/                                                                                                                                                                                                                  |
+| syncthing          | Syncthing                                           | File sync service                                                                                | https://sync.kraken-dh-01.internaldomain1.com/                                                                                                                                                                                                          |
+| pivpn-web          | -                                                   | Web GUI for the PiVPN project running on [Aquila-VPN-01](apps.md#aquila-vpn-01) | https://pivpn-web.internaldomain1.com/                                                                                                                                                                                                                  |
+| auto-updater       | Watchtower                                          | Container updater                                                                                | -                                                                                                                                                                                                                                                    |
 
 
 ## Gladiator-DH-02
 [Hardware](servers.md#gladiator-dh-02)
 
-| Name | Service | Description | URL |
-| ---- | ---- | ---- | ---- |
-| portainer-agent | Portainer Agent | - | - |
-| cta-notifier | - | Notifies me of new firefighter calls from my department (by me) | - |
-| ddns-updater | - | Updates the dynamic dns records for my domains (by me) | https://ddns.internaldomain1.com/ |
-| fake-file-creator | - | Fake File Creator app | https://ffc.publicdomain2.com/ |
-| homebridge | Homebridge | Bridge for non-Homekit devices | https://homebridge.internaldomain1.com/ |
-| minio | Minio | S3 storage | https://s3.publicdomain2.com/ <br>https://s3-admin.internaldomain1.com/ |
-| docs | Outline | Documentation/Wiki app | https://docs.publicdomain1.com/ |
-| personal-website-2 | Apache, PHP, mySQL, phpmyadmin | My personal website | https://publicdomain1.com/ <br>https://portfoliodb.internaldomain1.com/ |
-| transfer | pingvin-share | Alternative to swisstransfer | https://transfer.publicdomain1.com/ |
-| syncthing | Syncthing | File sync service | https://sync.gladiator-dh-02.internaldomain1.com/ |
-| auto-updater | Watchtower | Container updater | - |
+| Name               | Service                        | Description                                                     | URL                                                                  |
+| ------------------ | ------------------------------ | --------------------------------------------------------------- | -------------------------------------------------------------------- |
+| portainer-agent    | Portainer Agent                | -                                                               | -                                                                    |
+| cta-notifier       | -                              | Notifies me of new firefighter calls from my department (by me) | -                                                                    |
+| ddns-updater       | -                              | Updates the dynamic dns records for my domains (by me)          | https://ddns.internaldomain1.com/                                       |
+| fake-file-creator  | -                              | Fake File Creator app                                           | https://ffc.publicdomain2.com/                                            |
+| homebridge         | Homebridge                     | Bridge for non-Homekit devices                                  | https://homebridge.internaldomain1.com/                                 |
+| minio              | Minio                          | S3 storage                                                      | https://s3.publicdomain2.com/ <br>https://s3-admin.internaldomain1.com/      |
+| docs               | Outline                        | Documentation/Wiki app                                          | https://docs.publicdomain1.com/                                      |
+| personal-website-2 | Apache, PHP, mySQL, phpmyadmin | My personal website                                             | https://publicdomain1.com/ <br>https://portfoliodb.internaldomain1.com/ |
+| transfer           | pingvin-share                  | Alternative to swisstransfer                                    | https://transfer.publicdomain1.com/                                  |
+| syncthing          | Syncthing                      | File sync service                                               | https://sync.gladiator-dh-02.internaldomain1.com/                       |
+| auto-updater       | Watchtower                     | Container updater                                               | -                                                                    |
 
 
 ## Mercury-FS-01
 [Hardware](servers.md#mercury-fs-01)
 
-| Name | Service | Description | URL |
-| ---- | ---- | ---- | ---- |
-| nzbget | NZBGet | Usenet download client | https://nzbget.publicdomain2.com/ <br>https://nzbget.internaldomain1.com/ |
-| syncthing | Syncthing | File sync service | https://sync.mercury-fs-01.internaldomain1.com/ |
-| cdn | Nginx | CDN | https://cdn.publicdomain2.com/ |
-| urbackup | UrBackup | Backup service for my workstations | https://backup.publicdomain2.com/ |
+| Name      | Service   | Description                        | URL                                                               |
+| --------- | --------- | ---------------------------------- | ----------------------------------------------------------------- |
+| nzbget    | NZBGet    | Usenet download client             | https://nzbget.publicdomain2.com/ <br>https://nzbget.internaldomain1.com/ |
+| syncthing | Syncthing | File sync service                  | https://sync.mercury-fs-01.internaldomain1.com/                      |
+| cdn       | Nginx     | CDN                                | https://cdn.publicdomain2.com/                                         |
+
 
 ## Mantis-DNS-02
 [Hardware](servers.md#mantis-dns-02)
