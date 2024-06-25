@@ -45,6 +45,7 @@ Every device following the naming convention will get a static IP assigned by DH
 | 192.168.1.54     | Aurora-CL-03-WLAN    |                                                                                                                                               |
 | 192.168.1.55     | Nomad-CL-04          |                                                                                                                                               |
 | 192.168.1.56     | Phoenix-VR-01        |                                                                                                                                               |
+| 192.168.1.57     | Origin-CL-05         |                                                                                                                                               |
 | 192.168.1.69     | Scorpius-CL-01       |                                                                                                                                               |
 | 192.168.1.70     | Mercury-FS-01-MGMT   | [Config](http://192.168.1.70)                                                                                                                 |
 | 192.168.1.71     | Kraken-DH-01-MGMT    | [Config](http://192.168.1.71)                                                                                                                 |
