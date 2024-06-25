@@ -62,6 +62,7 @@ Every device following this naming convention will have its `<codename>` be the 
 	- [ ] Taurus
 - [x] Mantis
 - [x] Scorpius
+- [x] Origin
 - [ ] Cyclone
 - [ ] Nova
 - [x] Idris
