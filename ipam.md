@@ -26,7 +26,7 @@ Every device following the naming convention will get a static IP assigned by DH
 | 192.168.1.12     | Idris-HV-01          | [Hardware](servers.md#idris-hv-01), [VMs](apps.md#idris-hv-01)                                                                 |
 | 192.168.1.13     | Mantis-DNS-02        | [Hardware](servers.md#mantis-dns-02), [Containers](apps.md#mantis-dns-02)                                                     |
 | 192.168.1.14     | Gladiator-DH-02      | [Hardware](servers.md#gladiator-dh-02), [VMs](apps.md#gladiator-dh-02), [Containers](apps.md#gladiator-dh-02-1) |
-| 192.168.1.15                 | Aquila-VPN-01                     | [Hardware](servers.md#aquila-vpn-01), [Containers](apps.md#aquila-vpn-01)                                                                                                                                              |
+| 192.168.1.15     | Aquila-VPN-01        | [Hardware](servers.md#aquila-vpn-01), [Containers](apps.md#aquila-vpn-01)                                                     |
 | 192.168.1.30     | Polaris-DC-01        | [Hardware/Services](apps.md#polaris-dc-01)                                                                        |
 | 192.168.1.31     | Sentinel-DNS-01      | [Hardware/Services](apps.md#sentinel-dns-01)                                                                      |
 | 192.168.1.32     | Sabre-DNS-03         | [Hardware/Services](apps.md#sabre-dns-03)                                                                        |
@@ -38,6 +38,7 @@ Every device following the naming convention will get a static IP assigned by DH
 | 192.168.1.38     | Freelancer-CLD-01    | [Hardware/Services](apps.md#freelancer-cld-01)                                                                    |
 | 192.168.1.39     | Galaxy-RMM-01        | [Hardware/Services](apps.md#galaxy-rmm-01)                                                                        |
 | 192.168.1.40     | Dragonfly-MDA-01     | [Hardware/Services](apps.md#dragonfly-mda-01)                                                                     |
+| 192.168.1.41     | Gemini-BAK-01        | [Hardware/Services](apps.md#gemini-bak-01)                                                                        |
 | 192.168.1.50     | Scorpius-CL-01-WLAN  |                                                                                                                                               |
 | 192.168.1.51     | Arrow-CL-02          |                                                                                                                                               |
 | 192.168.1.52     | Arrow-CL-02-WLAN     |                                                                                                                                               |
@@ -45,7 +46,7 @@ Every device following the naming convention will get a static IP assigned by DH
 | 192.168.1.54     | Aurora-CL-03-WLAN    |                                                                                                                                               |
 | 192.168.1.55     | Nomad-CL-04          |                                                                                                                                               |
 | 192.168.1.56     | Phoenix-VR-01        |                                                                                                                                               |
-| 192.168.1.57     | Origin-CL-05         |                                                                                                                                               |
+| 192.168.1.57     | Origin-CL-05         | [Hardware](apps.md#origin-cl-05)                                                                                  |
 | 192.168.1.69     | Scorpius-CL-01       |                                                                                                                                               |
 | 192.168.1.70     | Mercury-FS-01-MGMT   | [Config](http://192.168.1.70)                                                                                                                 |
 | 192.168.1.71     | Kraken-DH-01-MGMT    | [Config](http://192.168.1.71)                                                                                                                 |

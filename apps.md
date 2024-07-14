@@ -99,6 +99,30 @@ OS: Debian 11
 | Storage | 32 GB |
 | Network | Emulated Intel E1000 nic (00:00:00:00:00:00) |
 
+### Origin-CL-05
+OS: MacOS Sonoma (14.0)
+#### VM Config
+| Setting | Value                                  |
+| ------- | -------------------------------------- |
+| CPU     | 4 vCPU core (host)                     |
+| RAM     | 4 GB                                   |
+| Storage | 90 GB                                  |
+| Network | VMware vmxnet3 nic (00:00:00:00:00:00) |
+
+### Gemini-BAK-01
+OS: Win 11 Pro Debloated
+
+| Service   | Description   | URL |
+| --------- | ------------- | --- |
+| Backblaze | Backup client | -   |
+#### VM Config
+| Setting | Value              |
+| ------- | ------------------ |
+| CPU     | 4 vCPU core (host) |
+| RAM     | 4 GB               |
+| Storage | 80 GB              |
+| Network | VirtIO nic ()      |
+
 ## Kraken-DH-01
 [Hardware](servers.md#kraken-dh-01)
 ### Wildfire-PXY-01
