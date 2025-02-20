@@ -41,7 +41,7 @@ Every device following this naming convention will have its `<codename>` be the 
 - [ ] Hercules
 - [ ] Ares
 	- [x] Inferno
-	- [x] Ion
+	- [ ] Ion
 - [ ] Caterpillar
 - [ ] Cutlass
 - [x] Dragonfly
@@ -52,11 +52,11 @@ Every device following this naming convention will have its `<codename>` be the 
 - [x] Prowler
 - [ ] Talon
 - [ ] Prospector
-- [ ] Razor
+- [x] Razor
 - [ ] Reliant
 - [x] Aurora
 - [ ] Constellation
-	- [ ] Andromeda
+	- [x] Andromeda
 	- [x] Phoenix
 	- [x] Aquila
 	- [ ] Taurus
@@ -78,6 +78,7 @@ Every device following this naming convention will have its `<codename>` be the 
 - [x] Freelancer
 - [ ] Starfarer
 	- [x] Gemini
+- [x] Bengal
 
 ## Role or service
 The role or service part of every device's name needs to be descriptive of what the device is mainly used for.
@@ -108,6 +109,7 @@ The role or service part of every device's name needs to be descriptive of what 
 | MDA    | Media Server                    |
 | VPN    | VPN Server                      |
 | BAK    | Backup Server                   |
+| GW     | Gateway                         |
 
 ## ID
 The ID is a double-digit incrementing number to identify devices when multiple of them have the same role or service.
