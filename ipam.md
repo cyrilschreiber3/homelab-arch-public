@@ -1,17 +1,17 @@
 Every device following the naming convention will get a static IP assigned by DHCP reservation. 
 ## Ranges
 
-| Range                       | Description                          |
-| --------------------------- | ------------------------------------ |
-| 192.168.1.1 - 192.168.1.4   | Routers / Firewalls / APs            |
-| 192.168.1.5 - 192.168.1.9   | Switches                             |
-| 192.168.1.10 - 192.168.1.29 | Servers                              |
-| 192.168.1.30 - 192.168.1.49 | Virtual Machines / Docker containers |
-| 192.168.1.50 - 192.168.1.69 | Clients                              | 
-| 192.168.1.70 - 192.168.1.79 | Managment                            |
-| 192.168.1.80 - 192.168.1.84 | VPNs / Proxy relays                  |
-| 192.168.1.85 - 192.168.1.89 | High-Availability IPs                |
-| 192.168.1.90 - 192.168.1.99 | Other                                |
+| Range                       | Description                          |     |
+| --------------------------- | ------------------------------------ | --- |
+| 192.168.1.1 - 192.168.1.4   | Routers / Firewalls / APs            |     |
+| 192.168.1.5 - 192.168.1.9   | Switches                             |     |
+| 192.168.1.10 - 192.168.1.29 | Servers                              |     |
+| 192.168.1.30 - 192.168.1.49 | Virtual Machines / Docker containers |     |
+| 192.168.1.50 - 192.168.1.69 | Clients                              |     |
+| 192.168.1.70 - 192.168.1.79 | Managment                            |     |
+| 192.168.1.80 - 192.168.1.84 | VPNs / Proxy relays                  |     |
+| 192.168.1.85 - 192.168.1.89 | High-Availability IPs                |     |
+| 192.168.1.90 - 192.168.1.99 | Other                                |     |
 
 ## Static Leases
 
