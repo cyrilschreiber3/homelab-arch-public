@@ -1,15 +1,15 @@
 # Mercury-FS-01
 [Containers](apps.md#mercury-fs-01)
 ## Hardware
-| Name | Model |
-| ---- | ---- |
-| CPU | Xeon X3450 |
-| Mobo | Supermicro X8SIL-F |
-| RAM | 32GB (4x8GB) DDR3 ECC 2Rx8 |
-| Boot | 32GB Sata DOM |
-| Case | FRACTAL DESIGN Meshify 2 |
-| Hard Drive trays | Fractal Design HDD tray |
-| HBA | TBD 8 port sata hba |
+| Name             | Model                      |
+| ---------------- | -------------------------- |
+| CPU              | Xeon X3450                 |
+| Mobo             | Supermicro X8SIL-F         |
+| RAM              | 32GB (4x8GB) DDR3 ECC 2Rx8 |
+| Boot             | 32GB Sata DOM              |
+| Case             | FRACTAL DESIGN Meshify 2   |
+| Hard Drive trays | Fractal Design HDD tray    |
+| HBA              | TBD 8 port sata hba        |
 ### Storage pools
 | Pool name | vDEV type | Disks |
 | ---- | ---- | ---- |
@@ -30,14 +30,14 @@
 # Kraken-DH-01
 [Virtual Machines](apps.md#kraken-dh-01), [Containers](apps.md#kraken-dh-01-1)
 ## Hardware
-| Name       | Model             |
-| ---------- | ----------------- |
-| CPU        | Xeon E3-1275 V2   |
-| Mobo       | Asus P8B-M        |
-| RAM        | 16GB            |
-| CPU Cooler | Noctua NH-U9s   |
-| Case       | LC Power PRO 925B |
-| SSD        | 256GB SSD       | 
+| Name       | Model             |     |
+| ---------- | ----------------- | --- |
+| CPU        | Xeon E3-1275 V2   |     |
+| Mobo       | Asus P8B-M        |     |
+| RAM        | 16GB              |     |
+| CPU Cooler | Noctua NH-U9s     |     |
+| Case       | LC Power PRO 925B |     |
+| SSD        | 256GB SSD         |     |
 ## Software 
 - OS: RHEL
 
