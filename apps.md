@@ -116,12 +116,25 @@ OS: Win 11 Pro Debloated
 | --------- | ------------- | --- |
 | Backblaze | Backup client | -   |
 #### VM Config
-| Setting | Value              |
-| ------- | ------------------ |
-| CPU     | 4 vCPU core (host) |
-| RAM     | 4 GB               |
-| Storage | 80 GB              |
-| Network | VirtIO nic ()      |
+| Setting | Value                          |
+| ------- | ------------------------------ |
+| CPU     | 4 vCPU core (host)             |
+| RAM     | 4 GB                           |
+| Storage | 80 GB                          |
+| Network | VirtIO nic (00:00:00:00:00:00) |
+### Endeavor-DNS-01 (LXC)
+OS: Debian 12
+
+| Service     | Description        | URL |
+| ----------- | ------------------ | --- |
+| Code Server | Development server | -   |
+#### VM Config
+| Setting | Value                          |
+| ------- | ------------------------------ |
+| CPU     | 4 vCPU core                    |
+| RAM     | 4 GB                           |
+| Storage | 32 GB                          |
+
 
 ## Kraken-DH-01
 [Hardware](servers.md#kraken-dh-01)

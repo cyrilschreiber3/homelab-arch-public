@@ -79,6 +79,7 @@ Every device following this naming convention will have its `<codename>` be the 
 - [ ] Starfarer
 	- [x] Gemini
 - [x] Bengal
+- [x] Endeavor
 
 ## Role or service
 The role or service part of every device's name needs to be descriptive of what the device is mainly used for.
@@ -110,6 +111,7 @@ The role or service part of every device's name needs to be descriptive of what 
 | VPN    | VPN Server                      |
 | BAK    | Backup Server                   |
 | GW     | Gateway                         |
+| DEV    | Developpement server            |
 
 ## ID
 The ID is a double-digit incrementing number to identify devices when multiple of them have the same role or service.
