@@ -56,7 +56,7 @@ Every device following the naming convention will get a static IP assigned by DH
 | 10.1.1.59  | Galaxy-RMM-01        | [Hardware/Services](apps.md#galaxy-rmm-01)                                                                        |
 | 10.1.1.60  | Dragonfly-MDA-01     | [Hardware/Services](apps.md#dragonfly-mda-01)                                                                     |
 | 10.1.1.61  | Gemini-BAK-01        | [Hardware/Services](apps.md#gemini-bak-01)                                                                        |
-| 10.1.1.62  | Endeavor-DEV-01      |                                                                                                                                               |
+| 10.1.1.62  | Endeavor-DEV-01      | [Hardware/Services](apps.md#endeavor-dns-01-(lxc))                                                                |
 | 10.1.1.80  | Mercury-FS-01-MGMT   |                                                                                                                                               |
 | 10.1.1.81  | Kraken-DH-01-MGMT    |                                                                                                                                               |
 | 10.1.1.82  | Idris-HV-01-MGMT     | Soon                                                                                                                                          |
