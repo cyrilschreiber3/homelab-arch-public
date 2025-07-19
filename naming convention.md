@@ -80,6 +80,8 @@ Every device following this naming convention will have its `<codename>` be the 
 	- [x] Gemini
 - [x] Bengal
 - [x] Endeavor
+- [ ] Arrow
+- [ ] Ballista
 
 ## Role or service
 The role or service part of every device's name needs to be descriptive of what the device is mainly used for.

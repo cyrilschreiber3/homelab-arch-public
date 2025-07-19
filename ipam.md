@@ -38,12 +38,11 @@ Every device following the naming convention will get a static IP assigned by DH
 | 10.1.1.22  | Idris-HV-01          | [Hardware](servers.md#idris-hv-01), [VMs](apps.md#idris-hv-01)                                                                 |
 | 10.1.1.23  | Mantis-DNS-02        | [Hardware](servers.md#mantis-dns-02), [Containers](apps.md#mantis-dns-02)                                                     |
 | 10.1.1.24  | Gladiator-DH-02      | [Hardware](servers.md#gladiator-dh-02), [VMs](apps.md#gladiator-dh-02), [Containers](apps.md#gladiator-dh-02-1) |
-| 10.1.1.25  | Aquila-VPN-01        | [Hardware](servers.md#aquila-vpn-01), [Containers](apps.md#aquila-vpn-01)                                                     |
-| 10.1.1.26  | TMP-ED800G3T-1       |                                                                                                                                               |
-| 10.1.1.27  | TMP-ED800G3S-1       |                                                                                                                                               |
-| 10.1.1.28  | TMP-ED800G3S-2       |                                                                                                                                               |
-| 10.1.1.29  | TMP-ED800G3S-3       |                                                                                                                                               |
-| 10.1.1.30  | TMP-ED800G3M-1       |                                                                                                                                               |
+| 10.1.1.25  | TMP-ED800G3T-1       |                                                                                                                                               |
+| 10.1.1.26  | TMP-ED800G3S-1       |                                                                                                                                               |
+| 10.1.1.27  | TMP-ED800G3S-2       |                                                                                                                                               |
+| 10.1.1.28  | TMP-ED800G3S-3       |                                                                                                                                               |
+| 10.1.1.29  | TMP-ED800G3M-1       |                                                                                                                                               |
 | 10.1.1.50  | Polaris-DC-01        | [Hardware/Services](apps.md#polaris-dc-01)                                                                        |
 | 10.1.1.51  | Sentinel-DNS-01      | [Hardware/Services](apps.md#sentinel-dns-01)                                                                      |
 | 10.1.1.52  | Sabre-DNS-03         | [Hardware/Services](apps.md#sabre-dns-03)                                                                        |
