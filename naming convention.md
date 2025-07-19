@@ -13,75 +13,132 @@ Devices that have multiple network interfaces (LAN + Wifi, 10G LAN + 1G LAN) wil
 Every device following this naming convention will have its `<codename>` be the name of a Star Citizen Ship.
 
 ## Ship names
-- Avenger
-	- [ ] Titan
-	- [ ] Warlock
-	- [ ] Stalker
-	- [ ] Renegade
+- [x] Apollo
+- [ ] Ares
+    - [x] Inferno
+    - [ ] Ion
+- [ ] Arrastra
+- [ ] Arrow
+- [ ] Asgard
+- [ ] Aurora
+- [ ] Avenger
+    - [ ] Renegade
+    - [ ] Stalker
+    - [ ] Titan
+    - [ ] Warlock
+- [ ] Ballista
+    - [ ] Dunestalker
+    - [ ] Snowblind
+- [x] Bengal
+- [ ] Blade
+- [ ] Buccaneer
+- [ ] Carrack
+- [ ] Caterpillar
+- [ ] Centurion
+- [ ] Constellation
+    - [x] Andromeda
+    - [ ] Aquila
+    - [x] Phoenix
+    - [ ] Taurus
+- [ ] Corsair
+- [ ] Crucible
+- [ ] Cutlass
+- [ ] Cutter
+    - [ ] Rambler
+    - [ ] Scout
+- [ ] Cyclone
+- [x] Defender
+- [x] Dragonfly
 - [ ] Eclipse
+- [x] Endeavor
+- [ ] Expanse
+- [ ] Fortune
+- [x] Freelancer
+- [ ] Fury
+- [x] Galaxy
+- [x] Genesis
+- [x] Gladiator
 - [ ] Gladius
+  - [ ] Valiant
+- [ ] Glaive
+- [ ] Golem
+- [ ] Guardian
 - [ ] Hammerhead
+- [ ] Hawk
+- [ ] Herald
+- [ ] Hercules
+- [x] Hornet
+    - [x] Ghost
+    - [x] Heartseeker
+    - [x] Tracker
+    - [x] Wildfire
+- [ ] Hurricane
+- [x] Idris
+- [ ] Intrepid
+- [ ] Ironclad
+- [ ] Javelin
+- [x] Kraken
+    - [ ] Privateer
+- [ ] Legionaire
+- [ ] Liberator
+- [x] Lightning
+- [ ] Lynx
+- [x] Mantis
+- [x] Mercury
+- [ ] Meteor
+- [ ] Mole
+    - [ ]  Talus
+- [ ] Mule
+- [ ] Mustang
+- [ ] Nautilus
+    - [ ] Solstice
+- [ ] Nomad
+- [ ] Nova
+- [ ] Nox
+- [ ] Odyssey
+- [x] Origin
+- [ ] Orion
+- [ ] Paladin
+- [ ] Perseus
+- [ ] Pioneer
+- [ ] Pisces
+- [x] Polaris
+- [ ] Prospector
+- [x] Prowler
+- [ ] Pulse
+- [ ] Raft
+- [ ] Railen
+- [ ] Ranger
+- [x] Razor
 - [ ] Reclaimer
 - [ ] Redeemer
+- [ ] Reliant
 - [ ] Retaliator
 - [x] Sabre
-- [ ] Carrack
-- [x] Hornet
-	- [x] Wildfire
-	- [x] Heartseeker
-	- [x] Tracker
-	- [x] Ghost
-- [x] Lightning
-- [ ] Hawk
-- [ ] Hurricane
-- [ ] Spartan
-- [ ] Terrapin
-- [x] Defender
-- [x] Nomad
-- [ ] Hercules
-- [ ] Ares
-	- [x] Inferno
-	- [ ] Ion
-- [ ] Caterpillar
-- [ ] Cutlass
-- [x] Dragonfly
-- [ ] Mule
-- [ ] Vulture
-- [ ] Blade
-- [ ] Glaive
-- [x] Prowler
-- [ ] Talon
-- [ ] Prospector
-- [x] Razor
-- [ ] Reliant
-- [x] Aurora
-- [ ] Constellation
-	- [x] Andromeda
-	- [x] Phoenix
-	- [x] Aquila
-	- [ ] Taurus
-- [x] Mantis
+    - [ ] Comet
+    - [ ] Firebird
+    - [ ] Peregrine
+    - [ ] Raven
 - [x] Scorpius
-- [x] Origin
-- [ ] Cyclone
-- [ ] Nova
-- [x] Idris
-- [x] Kraken
-- [ ] Genesis
-- [ ] Railen
-- [x] Polaris
-- [x] Mercury
-- [ ] Orion
-- [ ] Ursa
-- [x] Galaxy
+    - [ ] Antares
+- [ ] Scythe
+- [ ] Spartan
 - [ ] Spirit
-- [x] Freelancer
 - [ ] Starfarer
-	- [x] Gemini
-- [x] Bengal
-- [x] Endeavor
-- [ ] Arrow
-- [ ] Ballista
+    - [x] Gemini
+- [ ] Starlancer
+- [ ] Talon
+- [ ] Terrapin
+- [ ] Ursa
+- [ ] Valkyrie
+- [ ] Vanguard
+    - [ ] Harbinger
+    - [ ] Hoplite
+    - [x] Sentinel
+    - [ ] Warden
+- [ ] Vulcan
+- [ ] Vulture
+- [ ] Zeus
 
 ## Role or service
 The role or service part of every device's name needs to be descriptive of what the device is mainly used for.
