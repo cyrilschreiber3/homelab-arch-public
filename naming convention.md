@@ -41,7 +41,7 @@ Every device following this naming convention will have its `<codename>` be the 
     - [x] Phoenix
     - [ ] Taurus
 - [ ] Corsair
-- [ ] Crucible
+- [x] Crucible
 - [ ] Cutlass
 - [ ] Cutter
     - [ ] Rambler
@@ -77,6 +77,8 @@ Every device following this naming convention will have its `<codename>` be the 
 - [ ] Intrepid
 - [ ] Ironclad
 - [ ] Javelin
+- [ ] Jupiter
+- [ ] Kingship
 - [x] Kraken
     - [ ] Privateer
 - [ ] Legionaire
@@ -85,6 +87,7 @@ Every device following this naming convention will have its `<codename>` be the 
 - [ ] Lynx
 - [x] Mantis
 - [x] Mercury
+- [x] Merlin
 - [ ] Meteor
 - [ ] Mole
     - [ ]  Talus
@@ -99,6 +102,7 @@ Every device following this naming convention will have its `<codename>` be the 
 - [x] Origin
 - [ ] Orion
 - [ ] Paladin
+- [x] Pegasus
 - [ ] Perseus
 - [ ] Pioneer
 - [ ] Pisces
@@ -132,10 +136,10 @@ Every device following this naming convention will have its `<codename>` be the 
 - [ ] Ursa
 - [ ] Valkyrie
 - [ ] Vanguard
-    - [ ] Harbinger
-    - [ ] Hoplite
+    - [x] Harbinger
+    - [x] Hoplite
     - [x] Sentinel
-    - [ ] Warden
+    - [x] Warden
 - [ ] Vulcan
 - [ ] Vulture
 - [ ] Zeus
@@ -145,32 +149,32 @@ The role or service part of every device's name needs to be descriptive of what 
 
 | String | Description                     |
 | ------ | ------------------------------- |
-| DC     | Domain Controller               |
-| CL     | Client device                   |
-| WEB    | Web server                      |
-| DNS    | Domain Name Server              |
-| DMZ    | Demilitarized zone server       |
-| FS     | File Server                     |
-| Rtr    | Router                          |
-| SW     | Switch                          |
-| MINE   | Minecraft server                |
-| HAc    | Home Assistant Core             |
-| Hb     | Homebrige                       |
-| HV     | Hypervisor                      |
-| DH     | Docker Host                     |
-| Prtn   | Printer                         |
 | AP     | Access Point                    |
-| VR     | Virtual Reality Heaset          |
-| VIP    | Virtual IP                      |
-| PXY    | Proxy / Reverse Proxy server    |
-| GSN    | Game Server Node (Pterodactyl)  |
-| RMM    | Remote Moniroting and Managment |
-| CLD    | Cloud Server                    |
-| MDA    | Media Server                    |
-| VPN    | VPN Server                      |
 | BAK    | Backup Server                   |
-| GW     | Gateway                         |
+| CL     | Client device                   |
+| CLD    | Cloud Server                    |
+| DC     | Domain Controller               |
 | DEV    | Developpement server            |
+| DH     | Docker Host                     |
+| DMZ    | Demilitarized zone server       |
+| DNS    | Domain Name Server              |
+| FS     | File Server                     |
+| GSN    | Game Server Node (Pterodactyl)  |
+| GW     | Gateway                         |
+| HV     | Hypervisor                      |
+| KN     | Kubernetes Node                 |
+| MDA    | Media Server                    |
+| MINE   | Minecraft server                |
+| PXY    | Proxy / Reverse Proxy server    |
+| PRO    | Provisioning server             |
+| PRT    | Printer                         |
+| RMM    | Remote Moniroting and Managment |
+| RTR    | Router                          |
+| SW     | Switch                          |
+| VIP    | Virtual IP                      |
+| VPN    | VPN Server                      |
+| VR     | Virtual Reality Heaset          |
+| WEB    | Web server                      |
 
 ## ID
 The ID is a double-digit incrementing number to identify devices when multiple of them have the same role or service.

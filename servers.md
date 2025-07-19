@@ -72,15 +72,65 @@ Intel Nuc 11 Essential Kit
 | ---- | ----------------------------- |
 | CPU  | Celeron N5105 (11th gen)      |
 | Mobo | Proprietary Intel Motherboard |
-| RAM  | 16GB DDR4 3200MHz SODIMM    |
+| RAM  | 16GB DDR4 3200MHz SODIMM      |
 | GPU  | Integrated                    |
-| SSD  | 256GB SSD                   | 
+| SSD  | 256GB SSD                     |
 ## Software
 - OS: RHEL
 
-# Aquila-VPN-01
-[Containers](apps.md#aquila-vpn-01)
+# Pegasus-HV-02
+[Virtual Machines](apps.md#pegasus-hv-02)
 ## Hardware
-Raspberry Pi 3b+
+HP EliteDesk G300 Tower
+
+| Name | Model                                   |
+| ---- | --------------------------------------- |
+| CPU  | i7-7700K                                |
+| Mobo | Proprietary HP Motherboard              |
+| RAM  | 16GB DDR4                               |
+| GPU  | GTX 1080                                |
+| SSD  | 1TB NVME<br>2TB SSD (Converged storage) |
 ## Software
-- OS: Raspberry Pi OS Lite (Debian 12)
+- OS: Proxmox VE
+
+# Harbinger-KN-01
+[Virtual Machines](apps.md#pegasus-hv-02)
+## Hardware
+HP EliteDesk G300 SFF
+
+| Name | Model                                     |
+| ---- | ----------------------------------------- |
+| CPU  | i5-7500                                   |
+| Mobo | Proprietary HP Motherboard                |
+| RAM  | 8GB DDR4                                  |
+| SSD  | 128GB NVME<br>2TB SSD (Converged storage) |
+## Software
+- OS: Proxmox VE
+
+# Hoplite-KN-02
+[Virtual Machines](apps.md#pegasus-hv-02)
+## Hardware
+HP EliteDesk G300 SFF
+
+| Name | Model                                     |
+| ---- | ----------------------------------------- |
+| CPU  | i5-7500                                   |
+| Mobo | Proprietary HP Motherboard                |
+| RAM  | 8GB DDR4                                  |
+| SSD  | 1TB NVME<br>2TB SSD (Converged storage)   |
+## Software
+- OS: Proxmox VE
+
+# Warden-KN-03
+[Virtual Machines](apps.md#pegasus-hv-02)
+## Hardware
+HP EliteDesk G300 SFF
+
+| Name | Model                                     |
+| ---- | ----------------------------------------- |
+| CPU  | i5-7500                                   |
+| Mobo | Proprietary HP Motherboard                |
+| RAM  | 8GB DDR4                                  |
+| SSD  | 1TB NVME<br>2TB SSD (Converged storage)   |
+## Software
+- OS: Proxmox VE
