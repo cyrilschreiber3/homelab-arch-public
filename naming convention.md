@@ -135,7 +135,7 @@ Every device following this naming convention will have its `<codename>` be the 
 - [ ] Terrapin
 - [ ] Ursa
 - [ ] Valkyrie
-- [ ] Vanguard
+- [x] Vanguard
     - [x] Harbinger
     - [x] Hoplite
     - [x] Sentinel
