@@ -21,7 +21,7 @@ Every device following the naming convention will get a static IP assigned by DH
 | 10.1.1.50 - 10.1.1.79   | Virtual Machines               |
 | 10.1.1.80 - 10.1.1.119  | Managment                      |
 | 10.1.1.120 - 10.1.1.139 | High-Availability IPs          |
-| 10.1.1.140 - 10.1.1.159 | VPNs / Proxy relays            |
+| 10.1.1.140 - 10.1.1.159 | Kubernetes LB pool             |
 | 10.1.1.160 - 10.1.1.179 | Other                          |
 
 ## Static Leases
@@ -71,6 +71,7 @@ Every device following the naming convention will get a static IP assigned by DH
 | 10.1.1.120 | Defender-DNS-12-VIP  | [Master](apps.md#sentinel-dns-01), [Backup](apps.md#mantis-dns-02)                                           |
 | 10.1.1.121 | Hornet-PXY-12-VIP    | [Master](apps.md#wildfire-pxy-01), [Backup](apps.md#heartseeker-pxy-02)          |
 | 10.1.1.122 | Lightning-PXY-34-VIP | [Master](apps.md#tracker-pxy-03), [Backup](apps.md#ghost-pxy-04)                 |
+| 10.1.1.123 | Vanguard-KC-13-MGMT  | [Node 1](servers.md#harbinger-kn-01), [Node 2](servers.md#hoplite-kn-02), [Node 3](servers.md#warden-kn-03)                                      |
 | 10.1.2.10  | Origin-CL-05         | [Hardware](apps.md#origin-cl-05)                                                                                  |
 | 10.1.2.69  | Scorpius-CL-01       |                                                                                                                                               |
 
