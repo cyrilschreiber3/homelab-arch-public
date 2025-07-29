@@ -162,6 +162,7 @@ The role or service part of every device's name needs to be descriptive of what 
 | GSN    | Game Server Node (Pterodactyl)  |
 | GW     | Gateway                         |
 | HV     | Hypervisor                      |
+| KC     | Kubernetes Cluster              |
 | KN     | Kubernetes Node                 |
 | MDA    | Media Server                    |
 | MINE   | Minecraft server                |
@@ -178,3 +179,4 @@ The role or service part of every device's name needs to be descriptive of what 
 
 ## ID
 The ID is a double-digit incrementing number to identify devices when multiple of them have the same role or service.
+For a VIP, the ID is the combination of the first and last node ID 
