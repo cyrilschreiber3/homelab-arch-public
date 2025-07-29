@@ -8,10 +8,8 @@ OS: Windows Server 2022 Datacenter Edition
 | Service                          | Description                                         | URL                                                               |
 | -------------------------------- | --------------------------------------------------- | ----------------------------------------------------------------- |
 | Domain Controller                | -                                                   | ad://polaris-dc-01.internaldomain1.com                               |
-| PXE Server                       | Preboot Execution Evironment                        | pxe://polaris-dc-01.internaldomain1.com                              |
-| Windows Backup Server            | -                                                   | -                                                                 |
 | Plex Server                      | -                                                   | https://plex.publicdomain1.com/<br>https://plex.internaldomain1.com/ |
-| ~~Windows Server Update Server~~ | Removed due to being impractical and resource heavy | ~~http://polaris-dc-01.internaldomain1.com:8530/~~                   | 
+| ~~Windows Server Update Server~~ | Removed due to being impractical and resource heavy | ~~http://polaris-dc-01.internaldomain1.com:8530/~~                   |
 #### VM Config
 | Setting        | Value                          |
 | -------------- | ------------------------------ |
@@ -19,33 +17,33 @@ OS: Windows Server 2022 Datacenter Edition
 | RAM            | 6 GB                           |
 | Storage        | 128 GB                         |
 | Network        | VirtIO nic (00:00:00:00:00:00) |
-| PCI passthough | Radeon RC 550 2 GB                               |
+| PCI passthough | Radeon RX 550 2 GB             |
 
 ### Sentinel-DNS-01
 OS: CentOS Stream 9
 
-| Service | Description | URL |
-| ---- | ---- | ---- |
-| Pi-hole | - | https://sentinel-dns-01.internaldomain1.com/<br>dns://192.168.1.31 |
-| Keepalived | Load blancing and failover service | 192.168.1.85 (master) |
-| Unbound | Recursive DNS Server | - |
-| Cockpit | Linux Cockpit | https://cockpit.sentinel-dns-01.internaldomain1.com/ |
+| Service    | Description                                                                                                                             | URL                                                          |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| Pi-hole    | -                                                                                                                                       | https://sentinel-dns-01.internaldomain1.com/<br>dns://10.1.1.51 |
+| Keepalived | Load blancing and failover service<br>Doesn't work since [Mantis-DNS-02](apps.md#mantis-dns-02) isn't on the same network/subnet anymore | 192.168.1.85 (master)                                        |
+| Unbound    | Recursive DNS Server                                                                                                                    | -                                                            |
+| Cockpit    | Linux Cockpit                                                                                                                           | https://cockpit.sentinel-dns-01.internaldomain1.com/            |
 #### VM Config
-| Setting | Value |
-| ---- | ---- |
-| CPU | 2 vCPU cores (host) |
-| RAM | 2 GB |
-| Storage | 32 GB |
+| Setting | Value                          |
+| ------- | ------------------------------ |
+| CPU     | 2 vCPU cores (host)            |
+| RAM     | 2 GB                           |
+| Storage | 32 GB                          |
 | Network | VirtIO nic (00:00:00:00:00:00) |
 
 ### Prowler-GSN-01
 OS: Red Hat Enterprise Linux
 
-| Service | Description | URL |
-| ---- | ---- | ---- |
-| Pterodactyl Node | Game server node | - |
-| Syncthing | File sync service | https://sync.prowler-gsn-01.internaldomain1.com/ |
-| Cockpit | Linux Cockpit | https://cockpit.prowler-gsn-01.internaldomain1.com/ |
+| Service          | Description       | URL                                              |
+| ---------------- | ----------------- | ------------------------------------------------ |
+| Pterodactyl Node | Game server node  | -                                                |
+| Syncthing        | File sync service | https://sync.prowler-gsn-01.internaldomain1.com/    |
+| Cockpit          | Linux Cockpit     | https://cockpit.prowler-gsn-01.internaldomain1.com/ |
 #### VM Config
 | Setting | Value |
 | ---- | ---- |
@@ -57,24 +55,24 @@ OS: Red Hat Enterprise Linux
 ### Freelancer-CLD-01
 OS: Red Hat Enterprise Linux
 
-| Service       | Description                     | URL                                                                                                 |
-| ------------- | ------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Service       | Description                     | URL                                                                                                  |
+| ------------- | ------------------------------- | ---------------------------------------------------------------------------------------------------- |
 | Nextcloud-AIO | Nextcloud (All in One Solution) | https://nextcloud-config.freelancer-cld-01.internaldomain1.com/<br>https://nextcloud.publicdomain1.com/ |
-| Syncthing              | File sync service                                | https://sync.freelancer-cld-01.internaldomain1.com/                                                                                                    |
+| Syncthing     | File sync service               | https://sync.freelancer-cld-01.internaldomain1.com/                                                     |
 | Cockpit       | Linux Cockpit                   | https://cockpit.freelancer-cld-01.internaldomain1.com/                                                  |
 #### VM Config
-| Setting | Value |
-| ---- | ---- |
-| CPU | 4 vCPU cores (host) |
-| RAM | 4 GB |
-| Storage | 32 GB |
+| Setting | Value                          |
+| ------- | ------------------------------ |
+| CPU     | 4 vCPU cores (host)            |
+| RAM     | 4 GB                           |
+| Storage | 32 GB                          |
 | Network | VirtIO nic (00:00:00:00:00:00) |
 
 ### Galaxy-RMM-01
 OS: Debian 11
 
-| Service      | Description          | URL                                            |
-| ------------ | -------------------- | ---------------------------------------------- |
+| Service      | Description          | URL                                             |
+| ------------ | -------------------- | ----------------------------------------------- |
 | Tactical RMM | Open source RMM tool | https://rmm.internaldomain1.com/                   |
 | Cockpit      | Linux Cockpit        | https://cockpit.galaxy-rmm-01.internaldomain1.com/ |
 #### VM Config
@@ -88,9 +86,9 @@ OS: Debian 11
 ### Dragonfly-MDA-01
 OS: Debian 11
 
-| Service | Description | URL |
-| ---- | ---- | ---- |
-| Roon Server | High-quality music streaming service | - |
+| Service     | Description                          | URL |
+| ----------- | ------------------------------------ | --- |
+| Roon Server | High-quality music streaming service | -   |
 #### VM Config
 | Setting | Value                                        |
 | ------- | -------------------------------------------- |
@@ -225,16 +223,16 @@ OS: Alpine Linux 3.17
 ### Crucible-PRO-01
 OS: Debian 12
 
-| Service        | Description                     | URL                                            |
-| -------------- | ------------------------------- | ---------------------------------------------- |
-| Canonical MAAS | Bare metal provisioning service | https://maas.crucible-pro-01.internaldomain1.com/ |
+| Service        | Description                     | URL                                                                |
+| -------------- | ------------------------------- | ------------------------------------------------------------------ |
+| Canonical MAAS | Bare metal provisioning service | https://maas.crucible-pro-01.internaldomain1.com/<br>ipxe://10.1.1.63 |
 #### VM Config
-| Setting | Value                        |
-| ------- | ---------------------------- |
-| CPU     | 2 vCPU cores (x86-64-v2-AES) |
-| RAM     | 2 GB                         |
-| Storage | 64 GB                        |
-| Network | VirtIO nic ()                |
+| Setting | Value                          |
+| ------- | ------------------------------ |
+| CPU     | 2 vCPU cores (x86-64-v2-AES)   |
+| RAM     | 2 GB                           |
+| Storage | 64 GB                          |
+| Network | VirtIO nic (00:00:00:00:00:00) |
 
 # Docker Containers
 
@@ -268,37 +266,63 @@ OS: Debian 12
 
 | Name               | Service                                             | Description                                                     | URL                                                                                                             |
 | ------------------ | --------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| portainer-agent    | Portainer Agent                                     | -                                                               | -                                                                                                               |
-| cta-notifier       | -                                                   | Notifies me of new firefighter calls from my department (by me) | -                                                                                                               |
+| almo               | -                                                   | Notifies me of new firefighter calls from my department (by me) | -                                                                                                               |
 | ddns-updater       | -                                                   | Updates the dynamic dns records for my domains (by me)          | https://ddns.internaldomain1.com/                                                                                  |
 | fake-file-creator  | -                                                   | Fake File Creator app                                           | https://ffc.publicdomain2.com/                                                                                       |
+| gitea              | -                                                   | Self hosted git platform                                        | https://git.publicdomain2.com/                                                                                       |
 | Grafana-stack      | Grafana, Prometheus, InfluxDB and various exporters | Metrics and log agregation tools                                | https://grafana.internaldomain1.com/<br>https://prometheus.internaldomain1.com/<br>https://influxdb.internaldomain1.com/ |
 | homebridge         | Homebridge                                          | Bridge for non-Homekit devices                                  | https://homebridge.internaldomain1.com/                                                                            |
 | minio              | Minio                                               | S3 storage                                                      | https://s3.publicdomain2.com/ <br>https://s3-admin.internaldomain1.com/                                                 |
 | docs               | Outline                                             | Documentation/Wiki app                                          | https://docs.publicdomain1.com/                                                                                 |
+| transfer           | pingvin-share                                       | Swisstransfer/Wetransfer alternative                            | https://transfer.publicdomain1.com/                                                                             |
 | personal-website-2 | Apache, PHP, mySQL, phpmyadmin                      | My personal website                                             | https://publicdomain1.com/ <br>https://portfoliodb.internaldomain1.com/                                            |
-| transfer           | pingvin-share                                       | Alternative to swisstransfer                                    | https://transfer.publicdomain1.com/                                                                             |
+| portainer-agent    | Portainer Agent                                     | -                                                               | -                                                                                                               |
 | syncthing          | Syncthing                                           | File sync service                                               | https://sync.gladiator-dh-02.internaldomain1.com/                                                                  |
+| webtop             | Webtop                                              | Web-based virtual desktop                                       | https://webtop.publicdomain2.com/                                                                                    |
 | auto-updater       | Watchtower                                          | Container updater                                               | -                                                                                                               |
 
 
 ## Mercury-FS-01
 [Hardware](servers.md#mercury-fs-01)
 
-| Name      | Service   | Description                        | URL                                                               |
-| --------- | --------- | ---------------------------------- | ----------------------------------------------------------------- |
-| nzbget    | NZBGet    | Usenet download client             | https://nzbget.publicdomain2.com/ <br>https://nzbget.internaldomain1.com/ |
-| syncthing | Syncthing | File sync service                  | https://sync.mercury-fs-01.internaldomain1.com/                      |
-| cdn       | Nginx     | CDN                                | https://cdn.publicdomain2.com/                                         |
+| Name            | Service         | Description            | URL                                                               |
+| --------------- | --------------- | ---------------------- | ----------------------------------------------------------------- |
+| cdn             | Nginx           | CDN                    | https://cdn.publicdomain2.com/                                         |
+| filebrowser     | File Browser    | Web based file browser | https://explorer.mercury-fs-01.internaldomain1.com/                  |
+| nzbget          | NZBGet          | Usenet download client | https://nzbget.publicdomain2.com/ <br>https://nzbget.internaldomain1.com/ |
+| portainer-agent | Portainer Agent | -                      | -                                                                 |
+| syncthing       | Syncthing       | File sync service      | https://sync.mercury-fs-01.internaldomain1.com/                      |
 
 
 ## Mantis-DNS-02
 [Hardware](servers.md#mantis-dns-02)
 
-| Service | Description | URL |
-| ---- | ---- | ---- |
-| Pi-hole | - | https://admin.mantis-dns-02.internaldomain1.com/ <br>dns://192.168.1.13 |
-| Unbound | Recursive DNS Server | - |
-| Keepalived | Load blancing and failover service | 192.168.1.85 (backup) |
-| Cockpit | Linux Cockpit | https://cockpit.mantis-dns-02.internaldomain1.com/ |
-| uptimekuma | Uptime monitoring service | https://uptime.internaldomain1.com/ |
+| Service    | Description                        | URL                                                                  |
+| ---------- | ---------------------------------- | -------------------------------------------------------------------- |
+| Pi-hole    | -                                  | https://admin.mantis-dns-02.internaldomain1.com/ <br>dns://192.168.1.13 |
+| Unbound    | Recursive DNS Server               | -                                                                    |
+| Keepalived | Load blancing and failover service | 192.168.1.85 (backup)                                                |
+| Cockpit    | Linux Cockpit                      | https://cockpit.mantis-dns-02.internaldomain1.com/                      |
+| uptimekuma | Uptime monitoring service          | https://uptime.internaldomain1.com/                                     |
+
+# Kubernetes Workloads
+
+## Vanguard-KC-13
+[Node 1](servers.md#harbinger-kn-01), [Node 2](servers.md#hoplite-kn-02), [Node 3](servers.md#warden-kn-03) 
+
+| Item                    | Value        |
+| ----------------------- | ------------ |
+| Kubernetes distribution | K3S          |
+| Database                | Embeded etcd |
+| Load balancer           | MetalLB      |
+| Ingress controller      | Traefik      |
+
+| Service         | Description                                                                           | URL                               |
+| --------------- | ------------------------------------------------------------------------------------- | --------------------------------- |
+| cert-manager    | Manages TLS certificates for Traefik                                                  | -                                 |
+| portainer-agent | Connection to the main Portainer instance                                             | -                                 |
+| renovate        | Automatic update management                                                           | -                                 |
+| bind9           | Dns server serving as upstream for all local dns entries. (Managed through Terraform) | dns://10.1.1.142                  |
+| authentik       | SSO for most internal webapps                                                         | https://auth.internaldomain1.com/    |
+| kasm-workspaces | Container desktop streaming platform                                                  | https://desktop.internaldomain1.com/ |
+|                 |                                                                                       |                                   |
