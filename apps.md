@@ -326,3 +326,5 @@ OS: Debian 12
 | authentik       | SSO for most internal webapps                                                         | https://auth.internaldomain1.com/                        |
 | kasm-workspaces | Container desktop streaming platform                                                  | https://desktop.internaldomain1.com/                     |
 | longhorn        | Distributed block storage for Kubernetes                                              | https://longhorn.vanguard-kc-13-vip.internaldomain1.com/ |
+| qdevice         | Quorum nodes to enable high availability on my 2 nodes proxmox server                 | -                                                     |
+| wazuh           | Open source XDR and SIEM service                                                      | https://wazuh.internaldomain1.com/                       |
