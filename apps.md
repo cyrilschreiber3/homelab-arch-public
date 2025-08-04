@@ -317,14 +317,14 @@ OS: Debian 12
 | Load balancer           | MetalLB      |
 | Ingress controller      | Traefik      |
 
-| Service         | Description                                                                           | URL                                                   |
-| --------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------- |
-| cert-manager    | Manages TLS certificates for Traefik                                                  | -                                                     |
-| portainer-agent | Connection to the main Portainer instance                                             | -                                                     |
-| renovate        | Automatic update management                                                           | -                                                     |
-| bind9           | Dns server serving as upstream for all local dns entries. (Managed through Terraform) | dns://10.1.1.142                                      |
-| authentik       | SSO for most internal webapps                                                         | https://auth.internaldomain1.com/                        |
-| kasm-workspaces | Container desktop streaming platform                                                  | https://desktop.internaldomain1.com/                     |
-| longhorn        | Distributed block storage for Kubernetes                                              | https://longhorn.vanguard-kc-13-vip.internaldomain1.com/ |
-| qdevice         | Quorum nodes to enable high availability on my 2 nodes proxmox server                 | -                                                     |
-| wazuh           | Open source XDR and SIEM service                                                      | https://wazuh.internaldomain1.com/                       |
+| Service         | Description                                                                           | URL                                                      |
+| --------------- | ------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| cert-manager    | Manages TLS certificates for Traefik                                                  | -                                                        |
+| portainer-agent | Connection to the main Portainer instance                                             | -                                                        |
+| renovate        | Automatic update management                                                           | -                                                        |
+| bind9           | Dns server serving as upstream for all local dns entries. (Managed through Terraform) | dns://10.1.1.142 (all)<br>dns://10.1.1.143 (master only) |
+| authentik       | SSO for most internal webapps                                                         | https://auth.internaldomain1.com/                           |
+| kasm-workspaces | Container desktop streaming platform                                                  | https://desktop.internaldomain1.com/                        |
+| longhorn        | Distributed block storage for Kubernetes                                              | https://longhorn.vanguard-kc-13-vip.internaldomain1.com/    |
+| qdevice         | Quorum nodes to enable high availability on my 2 nodes proxmox server                 | -                                                        |
+| wazuh           | Open source XDR and SIEM service                                                      | https://wazuh.internaldomain1.com/                          |
