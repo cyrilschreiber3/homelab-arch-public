@@ -72,6 +72,7 @@ Every device following the naming convention will get a static IP assigned by DH
 | 10.1.1.121 | Hornet-PXY-12-VIP    | [Master](apps.md#wildfire-pxy-01), [Backup](apps.md#heartseeker-pxy-02)          |
 | 10.1.1.122 | Lightning-PXY-34-VIP | [Master](apps.md#tracker-pxy-03), [Backup](apps.md#ghost-pxy-04)                 |
 | 10.1.1.123 | Vanguard-KC-13-MGMT  | [Node 1](servers.md#harbinger-kn-01), [Node 2](servers.md#hoplite-kn-02), [Node 3](servers.md#warden-kn-03)                                      |
+| 10.1.1.124 | Genesis-HC-12-VIP    | [Node 1](servers.md#idris-hv-01), [Node 2](servers.md#pegasus-hv-02)                                                                            |
 | 10.1.1.140 | Vanguard-KC-13-VIP   | Traefik ingress                                                                                                                               |
 | 10.1.1.141 | Vanguard-KC-13-VIP   | Portainer Agent                                                                                                                               |
 | 10.1.1.142 | Vanguard-KC-13-VIP   | Bind9 DNS (All)                                                                                                                               |
